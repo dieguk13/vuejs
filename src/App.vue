@@ -1,3 +1,3 @@
 <template>
-  <h1>Hola amigo VUE JS</h1>
+  <h1>esto es un merge</h1>
 </template>
