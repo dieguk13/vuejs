@@ -1,6 +1,31 @@
 
-<script setup>
-const name = "vue dinamico"
+<script>
+export default{
+  data() {
+    return {
+      name: "prueba dinamico"
+    }
+  },
+   created(){
+    alert ("created") 
+   },
+   mounted(){
+    alert ("mounted") 
+   },
+   updated(){
+    alert ("updated") 
+   },
+   destroyed(){
+    alert ("destroyed") 
+   },
+   computed:{
+
+   },
+   methods: {
+    
+   },
+   //watch
+}
 
 </script>
 <template>
@@ -9,6 +34,7 @@ const name = "vue dinamico"
 
 <style>
 h1 {
-color: red;
+color: blue;
 } 
+
 </style>
