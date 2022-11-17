@@ -4,9 +4,10 @@ export default{
   data() {
     return {
       name: "prueba dinamico"
-    }
-  },
-   created(){
+      }
+      },
+    
+    created(){
     alert ("created") 
    },
    mounted(){
@@ -29,7 +30,8 @@ export default{
 
 </script>
 <template>
-  <h1>esto es un merge con {{ name}}</h1>
+  <h1>esto es un merge con {{name}}</h1>
+  
 </template>
 
 <style>
