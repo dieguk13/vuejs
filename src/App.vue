@@ -1,42 +1,39 @@
-
 <script>
-export default{
+import ClaseMetodos from "../src/components/ClaseMetodos.vue";
+
+export default {
+  components: {
+    ClaseMetodos,
+  },
   data() {
     return {
-      name: "prueba dinamico"
-      }
-      },
-    
-    created(){
-    alert ("created") 
-   },
-   mounted(){
-    alert ("mounted") 
-   },
-   updated(){
-    alert ("updated") 
-   },
-   destroyed(){
-    alert ("destroyed") 
-   },
-   computed:{
+      name: "prueba dinamica",
+    };
+  },
 
-   },
-   methods: {
-    
-   },
-   //watch
-}
-
+  created() {
+    alert("created");
+  },
+  mounted() {
+    alert("mounted");
+  },
+  updated() {
+    alert("updated");
+  },
+  destroyed() {
+    alert("destroyed");
+  },
+  computed: {},
+  methods: {},
+  //watch
+};
 </script>
 <template>
-  <h1>esto es un merge con {{name}}</h1>
-  
+ 
+
+  <clase-metodos> </clase-metodos>
 </template>
 
 <style>
-h1 {
-color: blue;
-} 
 
 </style>
